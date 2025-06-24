@@ -11,7 +11,7 @@ variable "instances" {
 }
 
 variable "zone_Id" {
-  default = "Z06357651XEXFXCO988YW"
+  default = "Z014511939UW0YQ3HBHGV"
 
 }
 
@@ -24,6 +24,7 @@ variable "common_tags" {
    type = map
    default = {
     Project = "expense"
+    Terraform = "true"
    }
   
 }
